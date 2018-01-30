@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Math test</title>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        crossorigin="anonymous" 
+        defer>
+    </script>
+    <script src="js/script.js" 
+        defer>
+    </script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="test">
+            <div class="line"><img src="img/sprite.png" alt="line"></div>
+            <div class="arcs">
+                <svg>
+                    <path 
+                        d="" 
+                        class="arc1" 
+                        stroke-width="2" 
+                        fill="transparent"/>
+                    <path 
+                        d="" 
+                        class="arc2" 
+                        stroke-width="2" 
+                        fill="transparent"/>
+                </svg>
+                <div class="argContainer">
+                    <span class="argAEnter"><input class="argAEnterInput" type="text" size="1" min="0" max="99"></span>
+                    <span class="argBEnter"><input class="argBEnterInput" type="text" size="1" min="0" max="99"></span>
+                </div>
+            </div>           
+            <div class="mathContainer">
+                <p class="math">
+                    <span class="argA"></span>
+                    +
+                    <span class="argB"></span>
+                    =
+                    <span class="answer">?</span>
+                    <input class="answerEnter" type="text" size="1">
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
