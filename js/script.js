@@ -34,7 +34,7 @@ $(document).ready(function() {
     $('.argB').text(B);
 
     $('.argAEnterInput').val('');
-    $('.argAEnterInput').val('');
+    $('.argBEnterInput').val('');
     $('.answerEnter').val('');
 
     $('.answerEnter').fadeOut(0);
