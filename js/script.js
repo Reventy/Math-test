@@ -32,6 +32,11 @@ $(document).ready(function() {
 
     $('.argA').text(A);
     $('.argB').text(B);
+
+    $('.argAEnterInput').val('');
+    $('.argAEnterInput').val('');
+    $('.answerEnter').val('');
+
     $('.answerEnter').fadeOut(0);
 
     setSvg('.arc1', 0, A, true);
